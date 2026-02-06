@@ -1,0 +1,265 @@
+Day01_Python_Fundamentals/day01_python_fundamentals.py
+"""
+Day 01 – Python Fundamentals
+Author: Sanket Tayde
+
+Topics Covered:
+- Print statements
+- Variables & Data Types
+- Type Casting
+- Input / Output
+- Conditional Statements
+- Loops (for, while)
+- Functions
+- Lambda Functions
+- Lists
+- Tuples
+- Sets
+- Logical Programs
+"""
+# ============================
+# 1. BASIC PRINT & TYPE CASTING
+# ============================
+
+print("Hello World")
+
+# Converting string to integer
+reg_num = int("12314575")
+print(reg_num)
+
+
+# ============================
+# 2. CONDITIONAL STATEMENTS
+# ============================
+
+# Age eligibility check
+x = int(input("Enter your age: "))
+if x >= 18:
+    print("You are eligible")
+else:
+    print("You are not eligible")
+
+# Even or Odd check
+y = int(input("Enter your number: "))
+if y % 2 == 0:
+    print("The given number is even")
+else:
+    print("The given number is odd")
+
+# Grading system
+marks = int(input("Enter your marks: "))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+
+# Biggest of two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print(f"{a} is bigger")
+elif b > a:
+    print(f"{b} is bigger")
+else:
+    print("Both are equal")
+
+# Traffic light system
+color = input("Enter the color: ").lower()
+if color == "green":
+    print("You can go")
+elif color == "yellow":
+    print("Ready")
+elif color == "red":
+    print("Stop")
+else:
+    print("Invalid input")
+
+
+# ============================
+# 3. LOOPS
+# ============================
+
+# For loop: print numbers from 1 to 10
+for i in range(1, 11):
+    print(i)
+
+# Print all odd numbers between 1 to 15
+for i in range(1, 16):
+    if i % 2 != 0:
+        print(i)
+
+# Star pattern using nested loop
+rows = int(input("Enter number of rows: "))
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+# Multiplication table using while loop
+num = int(input("Enter a number: "))
+t = 1
+while t <= 10:
+    print(num, "x", t, "=", num * t)
+    t += 1
+
+
+# ============================
+# 4. FUNCTIONS
+# ============================
+
+# Simple function
+def greet():
+    print("Hello")
+    print("Welcome to Python programming")
+
+greet()
+greet()
+
+# Function with return value
+def add(a, b):
+    return a + b
+
+result = add(5, 10)
+print("The sum is:", result)
+
+# Function to check even or odd
+def check_even_odd(n):
+    if n % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+n = int(input("Enter a number: "))
+print("The number is", check_even_odd(n))
+
+
+# ============================
+# 5. LAMBDA FUNCTIONS
+# ============================
+
+add_lambda = lambda x, y: x + y
+print("Sum using lambda:", add_lambda(7, 3))
+
+square = lambda x: x * x
+print("Square is:", square(6))
+
+cube = lambda x: x ** 3
+n = int(input("Enter a number: "))
+print("Cube is:", cube(n))
+
+
+# ============================
+# 6. INPUT BASED PRACTICE QUESTIONS
+# ============================
+
+# Q1: Input, type, and double
+value = input("Enter any value: ")
+print("Type is:", type(value))
+print("Double value:", value * 2)
+
+# Q2: Salary calculation
+salary = int(input("Enter salary: "))
+final_salary = salary + 5000
+print("Final salary:", final_salary)
+
+# Q3: Temperature check
+temp = int(input("Enter temperature: "))
+if temp >= 30:
+    print("It's hot today")
+elif temp >= 15:
+    print("It's normal today")
+else:
+    print("It's cold today")
+
+# Q4: Table of 7 with count
+count = 0
+for i in range(1, 11):
+    print("7 x", i, "=", 7 * i)
+    count += 1
+print("Total numbers printed:", count)
+
+# Q5: Reverse a number
+num = int(input("Enter a number: "))
+rev = 0
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num //= 10
+print("Reversed number:", rev)
+
+
+# ============================
+# 7. LISTS
+# ============================
+
+marks = [10, 20, 30, 40]
+print(marks[1])
+
+marks.append(100)
+marks.insert(1, 25)
+marks.insert(3, 75)
+marks.remove(75)
+marks.pop()
+print(marks)
+
+# List operations
+ages = [18, 19, 23, 25, 36]
+ages.sort()
+ages.reverse()
+print(ages)
+print("Length:", len(ages))
+print("Max:", max(ages))
+print("Min:", min(ages))
+print("Sum:", sum(ages))
+print("Average:", sum(ages) / len(ages))
+
+# Cities list
+cities = ["Delhi", "Mumbai", "Chennai", "Kolkata"]
+cities.sort()
+cities.reverse()
+cities.append("Bangalore")
+cities.insert(1, "Hyderabad")
+cities.remove("Chennai")
+cities.pop()
+print(cities)
+
+
+# ============================
+# 8. TUPLES
+# ============================
+
+weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday")
+print(weekdays)
+print(weekdays.count("Monday"))
+print(weekdays.index("Friday"))
+print(weekdays[1:4])
+
+friends = ("Alice", "Bob", "Charlie", "David", "Eva")
+print(friends)
+print(len(friends))
+
+
+# ============================
+# 9. SETS
+# ============================
+
+numbers = {10, 20, 30, 40, 10}
+print(numbers)
+
+numbers.add(100)
+numbers.update([120, 130])
+numbers.remove(120)
+numbers.discard(175)  # No error if element not present
+
+a = {1, 2, 3}
+b = {3, 4, 5}
+c = {1, 2}
+
+print(a.union(b))
+print(a.intersection(b))
+print(c.issubset(a))
+print(a.issuperset(c))
