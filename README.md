@@ -18,4 +18,4 @@ Menu-Driven Programs using Dictionary
 String Manipulation & String Methods
 String Logical Programs (reverse, palindrome, duplicates)
 File Handling (read, write, append)
-Exception Handling (try, except, finally)
+Exception Handling (try, except and finally)
