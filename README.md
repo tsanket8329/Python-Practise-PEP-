@@ -33,7 +33,7 @@ Mutable vs Immutable Data Types
 Functions Behavior and Return Flow
 String and List Logical Programs
 Move zeros to end
-Longest word in a sentence
+Longest words in the sentence
 Palindrome and duplicates
 Problem-Solving Approaches
 Brute force logic
