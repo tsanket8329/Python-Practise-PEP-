@@ -38,3 +38,29 @@ Palindrome and duplicates
 Problem-Solving Approaches
 Brute force logic
 Pair sum/Target sum problems
+
+Day 04 - Python Mini Projects and File-Based Applications
+Menu-Driven Program Design
+Functions-Based Program Structure
+Global Variable and global keyword
+File Handling for Data Persistence
+Load data from file
+Save updated data to file
+ATM Simulator Project
+Balance check
+Deposit and withdrawl logic 
+PIN verification and change
+Data storage using files
+Quiz Application Project
+Questions and answers using lists
+Score caculation
+High-score tracking using files
+Conditional Logic for score comparison
+Program Flow Control using main()
+Error Handling with try / except
+
+Focus of Day04: Building real-word mini projects, understanding program flow,
+                file-based data storage and modular coding using functions...!!
+                     
+
+
