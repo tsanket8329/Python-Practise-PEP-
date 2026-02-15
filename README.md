@@ -96,6 +96,17 @@ Deposit and withdraw logic
 Secure data access using methods
 
 Focus on Day 05: Understanding core OOP concepts, class design, data handling, and implementing real world logic using encapsulation..!!
+
+
+Day 06: Python Practise
+This notebook covers basic Object-Oriented Programming(OOP) concepts in Python, including:
+Inheritance
+Multiple Inheritance
+super()
+public private protected
+Diamond problem
+Polymorphism
+Reference
                      
 
 
