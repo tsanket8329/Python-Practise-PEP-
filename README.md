@@ -182,6 +182,12 @@ Random number generation
 Even and odd number checking
 Mathematical operations and rounding
 Frequency counting using collections
+File handling concepts
+OS module for directory and file handling
+Random password generation
+Password strength checking
+Character count in password
+Strength score calculation
 
 
 
