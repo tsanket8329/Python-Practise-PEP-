@@ -174,6 +174,15 @@ Extract email IDs from a string
 Extract numbers from alphanumeric text
 Strong password validation using regex
 PAN number validation
+IPv4 address validation
+IPv6 address validation
+Hexadecimal value validation
+Sys module usage
+Random number generation
+Even and odd number checking
+Mathematical operations and rounding
+Frequency counting using collections
+
 
 
 
