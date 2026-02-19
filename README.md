@@ -168,6 +168,13 @@ DataTime Module
 Collections Module
 Regular Expressions
 
+Day 9 Python Practice
+Regex to validate 10-digit mobile number
+Extract email IDs from a string
+Extract numbers from alphanumeric text
+Strong password validation using regex
+PAN number validation
+
 
 
 
