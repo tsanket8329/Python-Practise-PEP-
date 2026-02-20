@@ -190,6 +190,16 @@ Character count in password
 Strength score calculation
 
 
+Day 10 Python Practice
+This practice file demonstrates hands-on MySQL database operations using the MySQL command-line interface. It focuses on building a strong foundation in SQL basics and data analysis queries.
+Key concepts covered:
+Creating and managing databases and tables (CREATE, USE, DROP, TRUNCATE)
+Inserting and retrieving data (INSERT, SELECT)
+Filtering records using conditions (WHERE, AND, OR)
+Sorting and limiting results (ORDER BY, LIMIT)
+Aggregate functions:
+
+
 
 
 
