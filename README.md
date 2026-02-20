@@ -198,7 +198,16 @@ Inserting and retrieving data (INSERT, SELECT)
 Filtering records using conditions (WHERE, AND, OR)
 Sorting and limiting results (ORDER BY, LIMIT)
 Aggregate functions:
-
+AVG, SUM, COUNT, MAX, MIN
+Grouping data for analysis (GROUP BY)
+Using aliases for better readability
+Performing real-world style queries on:
+Student data
+Candidates data
+Employee data
+Identifying and fixing SQL syntax errors
+Analyzing data by department, city, gender, salary, and experience
+Outcome: This exercise strengthens practical SQL skills required for data analysis, backend development, and database management, with real-life table structures and queries
 
 
 
