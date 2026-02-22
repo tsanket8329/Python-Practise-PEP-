@@ -209,6 +209,9 @@ Identifying and fixing SQL syntax errors
 Analyzing data by department, city, gender, salary, and experience
 Outcome: This exercise strengthens practical SQL skills required for data analysis, backend development, and database management, with real-life table structures and queries
 
+Day 11 Python Practice
+Primary Key - Not null + unique Not NULL - Unique Syntax for foreign jey - student_id REFERENCES student(student_id) INNER JOIN → A ∩ B
+
 
 
 
