@@ -219,6 +219,21 @@ A subquery is a query inside another query, used when one question depends on th
 Transaction (All or Nothing) A transaction is a sequence of SQL operations executed as a single unit where either all changes are committed or all are rolled back. It starts with a transaction, executes multiple SQL statements, and ends with either commit or rollback.
 
 Indexing Indexing helps SQL find data faster, similar to a book index or page number. Without an index, the database scans every row from beginning to end, which is slow. With an index, the database directly jumps to the required data, which is fast.
+SQL Commands Are Divided Into Five Types
+
+Data Definition Language (DDL) – Structure (Design) CREATE, ALTER, DROP, RENAME, TRUNCATE
+
+Data Manipulation Language (DML) – Data (Rows) INSERT, UPDATE, DELETE
+
+Data Query Language (DQL) – Fetch Data SELECT
+
+Data Control Language (DCL) – Security GRANT, REVOKE
+
+Transaction Control Language (TCL) – Transactions SAVEPOINT, COMMIT, ROLLBACK
+
+Normalization Normalization is the process of converting a messy and unorganized table into clean, well-structured tables.
+
+Why Normalization? Reduces data duplication Avoids insert anomaly
 
 
 
