@@ -213,6 +213,14 @@ Day 11 Python Practice
 Primary Key - Not null + unique Not NULL - Unique Syntax for foreign jey - student_id REFERENCES student(student_id) INNER JOIN → A ∩ B
 LEFT JOIN → A ∪ (A ∩ B) → A + A^B | RIGHT JOIN → B ∪ (A ∩ B) → B + A^B | FULL JOIN → A ∪ B
 
+Day 12 Python Practice
+A subquery is a query inside another query, used when one question depends on the result of another.
+
+Transaction (All or Nothing) A transaction is a sequence of SQL operations executed as a single unit where either all changes are committed or all are rolled back. It starts with a transaction, executes multiple SQL statements, and ends with either commit or rollback.
+
+Indexing Indexing helps SQL find data faster, similar to a book index or page number. Without an index, the database scans every row from beginning to end, which is slow. With an index, the database directly jumps to the required data, which is fast.
+
+
 
 
                      
