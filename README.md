@@ -245,7 +245,8 @@ COMMANDS IN SQLite:
 
 connect()--> OPENS DATABASE cursor()--> RUNS SQL execute()--> EXECUTES SQL commit()--> SAVE CHANGES close()--> CLOSES CONNECTION Avoids update anomaly Avoids delete anomaly
 
-
+Day 14 Python Practice
+A simple Python script demonstrating PostgreSQL connectivity using psycopg2.
 
 
                      
