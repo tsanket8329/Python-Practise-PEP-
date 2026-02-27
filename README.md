@@ -252,5 +252,5 @@ A simple Python script demonstrating PostgreSQL connectivity using psycopg2.
  Day 15 – Python API Integration & JSON Handling
 
 Today I learned how to connect Python with real-world data using APIs and handle JSON responses effectively.                    
-
+I practiced sending HTTP requests, checking status codes, and handling errors using try and except. I also built a simple Weather App that fetches live weather data based on city input and displays formatted results.
 
