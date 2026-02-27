@@ -249,6 +249,8 @@ Day 14 Python Practice
 A simple Python script demonstrating PostgreSQL connectivity using psycopg2.
  It creates an employees table, inserts sample data, and fetches records from the database
 
-                     
+ Day 15 – Python API Integration & JSON Handling
+
+Today I learned how to connect Python with real-world data using APIs and handle JSON responses effectively.                    
 
 
