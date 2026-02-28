@@ -265,4 +265,4 @@ INNER & LEFT JOIN
 GROUP BY
 Transactions (BEGIN / ROLLBACK)
 Index creation
-Tools: PostgreSQL, SQL, Python (practice context)
+Tools: PostgreSQL, SQL, Python 
