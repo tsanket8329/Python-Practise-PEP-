@@ -254,3 +254,15 @@ A simple Python script demonstrating PostgreSQL connectivity using psycopg2.
 Today I learned how to connect Python with real-world data using APIs and handle JSON responses effectively.                    
 I practiced sending HTTP requests, checking status codes, and handling errors using try and except. I also built a simple Weather App that fetches live weather data based on city input and displays formatted results.
 This helped me understand client-server communication and how backend systems interact with external services.
+
+Day 15 Python Practice
+This file contains PostgreSQL and SQL practice focusing on database creation, table design, constraints, joins, transactions, and indexing
+
+Key Topics:
+Tables & constraints (PK, FK, UNIQUE, CHECK)
+INSERT & SELECT queries
+INNER & LEFT JOIN
+GROUP BY
+Transactions (BEGIN / ROLLBACK)
+Index creation
+Tools: PostgreSQL, SQL, Python (practice context)
