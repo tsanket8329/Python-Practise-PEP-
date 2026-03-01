@@ -266,3 +266,9 @@ GROUP BY
 Transactions (BEGIN / ROLLBACK)
 Index creation
 Tools: PostgreSQL, SQL, Python 
+
+
+Day 16 Python Practice
+It focuses on ORM (Object Relational Mapping) in Python
+Demonstrates how Python code is mapped to a database table
+Uses SQLAlchemy as the ORM tool
