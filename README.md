@@ -272,3 +272,9 @@ Day 16 Python Practice
 It focuses on ORM (Object Relational Mapping) in Python
 Demonstrates how Python code is mapped to a database table
 Uses SQLAlchemy as the ORM tool
+Shows how to:
+Create a database connection (SQLite)
+Define a base class using declarative_base()
+Create an Employee model/class
+Map class attributes to table columns
+The file is basically a practice/example of converting Python classes into SQL tables
