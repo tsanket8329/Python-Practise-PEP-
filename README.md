@@ -287,3 +287,20 @@ Small notes/practice cells explaining concepts (for example: operators like ==)
 Steps to connect an engine to a database
 Practice code related to table creation using ORM
 A mini project section where ORM models and project-style code are written
+
+Day 18 Python Practice
+Project Personal Finance Manager
+
+A Command Line Interface (CLI) based Personal Finance Tracker built using Python, SQLite, and SQLAlchemy ORM. This project helps users manage daily expenses, track subscriptions, monitor category-wise spending, and control monthly budgets.
+
+Features: Add and manage expense categories 2) Record daily transactions (expenses) 3) Update entries 4) delete incorrect or extra entries 5) Search expenses by date 6) View category-wise spending summary (using Raw SQL) 7) Set monthly budgets for categories 8) Get budget alerts when spending exceeds the limit 9) Track subscriptions (Netflix, Gym, etc.) 10) Persistent storage using SQLite database
+
+Technologies Used:
+
+Python 3 SQLite Database SQLAlchemy ORM Raw SQL Queries CLI (Command Line Interface)
+
+Database Schema:
+
+The application uses four relational tables with proper foreign key relationships.
+
+Categories Stores different types of spending categories. Fields: id — Integer, Primary Key name — String, name of the category (e.g., Food, Travel) Relationship: One category can have many transactions One category can have many budgets Transactions Stores all expense records entered by the user. Fields: id — Integer, Primary Key amount — Float, money spent description — String, expense details date — String, date of transaction (YYYY-MM-DD) category_id — Integer, Foreign Key referencing categories.id Relationship: Many transactions belong to one category Budgets Stores monthly spending limits for each category. Fields: id — Integer, Primary Key category_id — Integer, Foreign Key referencing categories.id month — String, month in format YYYY-MM budget_limit — Float, maximum allowed spending Relationship: Many budget records can belong to one category Used to compare actual spending vs planned budget Subscriptions Stores recurring expenses separately. Fields: id — Integer, Primary Key name — String, subscription name (e.g., Netflix) amount — Float, subscription cost start_date — String, start date (YYYY-MM-DD) end_date — String, end/renewal date Relationship: Independent table (not linked to categories) Relationship Summary Category → Transactions = One-to-Many Category → Budgets = One-to-Many Transactions → Category = Many-to-One Budgets → Category = Many-to-One Subscriptions = Standalone entity
