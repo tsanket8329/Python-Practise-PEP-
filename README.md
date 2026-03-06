@@ -320,4 +320,23 @@ Add Category Add Transaction Update Transaction Delete Transaction Search Transa
 
 This project demonstrates: ORM-based database interaction SQL JOINs and aggregation CLI application design Budget tracking logic Modular programming with Python
 
-Future Enhancements: Export reports to CSV Flask Web Interface User Authentication Charts and visual analytics
+Future Enhancements: Export reports to CSV Flask Web Interface User Authentication Charts and visual 
+
+
+Day 19 Python Practice
+Django is high level python web frameweork used to build websites , APIs ,Backend systems , Admin dashboard MTV - Model(Database) Template(Frontend) View (Business logic) MTV is a structure followed by Django -- Frontend =Bcakend= Database Model - Books table in database View - Logic to fetch the books Template - HTML page showing books setting.py - project settings urls - routing manage.py - run the command GET - fetch data POST - Create data PUT - update full PATCH - update partial DELETE - Delete data 200 - success 201 - created 400 - bad request 401 - unauthorized 403 - forbidden 404- not found 500 - server error Summary - I created a virtual environment and installed Django.
+I created a Django project (config) and ran the server.
+
+Django showed a warning about unapplied migrations (database tables not created yet).
+
+I created an app named core.
+
+I got an ImportError because the hello view didn’t exist.
+
+After creating the hello view, the server worked.
+
+/hello/ works ✅
+
+shows 404 because I didn’t define a root URL.
+
+I still need to run python manage.py migrate to create the default database tables.
