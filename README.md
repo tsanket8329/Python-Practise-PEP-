@@ -344,3 +344,5 @@ I still need to run python manage.py migrate to create the default database tabl
 Apps in Django – Django projects are divided into small modules called apps. Each app handles a specific functionality of the project (for example: users, products, blog).
 
 Migrations – Django uses migrations to create and update database tables automatically based on the models defined in the project.
+
+ORM (Object Relational Mapper) – Django ORM allows developers to interact with the database using Python code instead of writing raw SQL queries.
