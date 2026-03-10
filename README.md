@@ -346,3 +346,5 @@ Apps in Django – Django projects are divided into small modules called apps. E
 Migrations – Django uses migrations to create and update database tables automatically based on the models defined in the project.
 
 ORM (Object Relational Mapper) – Django ORM allows developers to interact with the database using Python code instead of writing raw SQL queries.
+
+Admin Panel – Django provides a built-in admin dashboard that allows developers to manage database records like users, products, and posts easily.
