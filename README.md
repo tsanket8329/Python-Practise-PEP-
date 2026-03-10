@@ -340,3 +340,7 @@ After creating the hello view, the server worked.
 shows 404 because I didn’t define a root URL.
 
 I still need to run python manage.py migrate to create the default database tables.
+
+Apps in Django – Django projects are divided into small modules called apps. Each app handles a specific functionality of the project (for example: users, products, blog).
+
+Migrations – Django uses migrations to create and update database tables automatically based on the models defined in the project.
