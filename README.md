@@ -154,7 +154,7 @@ Deposit
 Withdraw
 Balance check
 Interest calculation
-..Summary..
+!..Summary..!
 These mini projects helped in understanding:
 Real-world uses of OOPS concepts
 IS-A and HAS-A relationships
