@@ -335,7 +335,7 @@ I got an ImportError because the hello view didn’t exist.
 
 After creating the hello view, the server worked.
 
-/hello/ works ✅
+hello works ✅
 
 shows 404 because I didn’t define a root URL.
 
