@@ -60,7 +60,7 @@ Program Flow Control using main()
 Error Handling with try / except
 
 Focus of Day04: Building real-word mini projects, understanding program flow,
-                file-based data storage and modular coding using functions...!!
+                file-based data storage and modular coding using functions..!
 
 Day 05- Object Oriented Programming(OOP) in Python
 Introduction to OOP
