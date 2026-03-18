@@ -225,11 +225,11 @@ Data Definition Language (DDL) – Structure (Design) CREATE, ALTER, DROP, RENAM
 
 Data Manipulation Language (DML) – Data (Rows) INSERT, UPDATE, DELETE
 
-Data Query Language (DQL) – Fetch Data SELECT
+Data Query Language (DQL) – Fetch Data SELECT.
 
-Data Control Language (DCL) – Security GRANT, REVOKE
+Data Control Language (DCL) – Security GRANT, REVOKE.
 
-Transaction Control Language (TCL) – Transactions SAVEPOINT, COMMIT, ROLLBACK
+Transaction Control Language (TCL) – Transactions SAVEPOINT, COMMIT, ROLLBACK.
 
 Normalization Normalization is the process of converting a messy and unorganized table into clean, well-structured tables.
 
